@@ -1,0 +1,174 @@
+body,
+html {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #677273
+}
+
+/*SECTION HEADER*/
+
+.header{
+    text-align: center;
+    padding-top: 20px;
+    color: #f1f1f1;
+    margin-bottom: 30px
+}
+.header p{
+    padding-bottom: 10px;
+}
+.button, .button:visited, .button:active{
+    background: #555d5e;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px;
+    color: #f1f1f1;
+}
+.button:hover{
+    background: #f1f1f1;
+    color: #555d5e;
+}
+a:visited{
+    color: #f1f1f1;
+}
+nav{
+    position: sticky;
+    position: -webkit-sticky;
+    z-index: 2;
+    top: 0px;
+}
+nav ul {
+    margin: 0;
+    padding: 15px;
+    list-style: none;
+    text-align: center;
+    background: #555d5e
+}
+nav ul li {
+    display: inline;
+    background: #555d5e
+}
+li a, li a:visited, li a:active {
+    background: #555d5e ;
+    color: #b1b1b1 ;
+    text-align: center ;
+    text-decoration: none ;
+    padding: 0 15px
+}
+li a:hover {
+    color: #f1f1f1;
+}
+h2{
+    margin: 0;
+    padding-top: 20px;
+    color:#677273 ;
+    text-align: center
+}
+
+/*SECTION ABOUT*/
+
+.about-me{
+    color:#677273 ;
+    background-color: white;
+    padding: 40px 40px;
+
+}
+.about-me div{
+   display:flex;
+    justify-content: space-evenly;
+    padding-top:20px;
+    
+}
+
+/*SECTION COMPETENCES*/
+
+.competences{
+    background-color: #f0f0f0;
+    padding: 40px 0;
+}
+.competences div{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-top: 20px;
+}
+div ul{
+    padding: 0;
+}
+div li {
+    list-style: none;
+    color:#555d5e ;
+}
+.list-title{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/*SECTION FORMATION*/
+
+.formations{
+    background-color: white;
+    color:#555d5e ;
+    padding: 40px 40px;
+    text-align: center;
+}
+.formations p, .exp p{
+    padding-top: 20px;
+}
+.formations p:first-line, .exp p:first-line{
+    font-weight: bold;
+}
+
+/*SECTION EXP HOBBIES*/
+
+.exp{
+    color:#677273 ;
+    background-color: #f0f0f0;
+    padding: 40px 0;
+    text-align: center;
+}
+
+/*SECTION CONTACT*/
+
+.contact{
+    color: #f1f1f1;
+    padding: 5px 40px 0 40px;
+}
+.contact h2{
+    color: #f1f1f1;
+}
+.contact-container{
+    padding-top: 20px;
+}
+.contact-container p:first-line{
+    font-weight: bold;
+}
+.contact a:link, contact a:visited{
+    color: #f1f1f1;
+}
+input {
+    background-color: #eee;
+    border: none;
+    border-radius: 0;
+    color: #999;
+    height: 30px;
+    margin-bottom: 15px;
+}
+
+textarea {
+    background-color: #eee;
+    border: none;
+    border-radius: 0;
+    color: #999;
+    height: 150px;
+    width: 100%;
+}
+input[name=submit] {
+    margin-top: 15px;
+    float: right;
+}
+
+form span {
+    margin-top: 15px;
+}
